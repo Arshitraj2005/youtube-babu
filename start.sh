@@ -1,9 +1,8 @@
 #!/bin/bash
-# Start the Flask app in the background
-python3 main.py &
+gunicorn main:app --bind 0.0.0.0:$PORT &
 
-# Wait a bit for the server to start
+# Wait for Flask to initialize
 sleep 5
 
-# Start the YouTube stream
+# Start your YouTube stream
 python3 stream.py
