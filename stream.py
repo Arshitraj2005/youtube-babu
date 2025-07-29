@@ -3,7 +3,7 @@ import os
 import time
 
 # 🔴 Your YouTube Stream Key
-STREAM_KEY = "mbbh-5q15-4khd-q11h-4cds"
+STREAM_KEY = "0akr-61bb-wc67-4qgr-c2xc"
 RTMP_URL = f"rtmp://a.rtmp.youtube.com/live2/{STREAM_KEY}"
 
 
